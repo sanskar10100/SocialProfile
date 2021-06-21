@@ -10,3 +10,5 @@ This app was written to test out Firebase Auth SDK and its integration with Face
 - Firebase Auth UI
 - Facebook Integration
 - Nested CardView
+
+[Download APK](https://github.com/sanskar10100/SocialProfile/releases/download/v1.0.0/SocialProfile_1.0.0.apk)
