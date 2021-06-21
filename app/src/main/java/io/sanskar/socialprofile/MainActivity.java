@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 Log.d(TAG, "onActivityResult: Login Okay");
                 Toast.makeText(this, "You're signed in as " + FirebaseAuth.getInstance().getCurrentUser().getDisplayName(), Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, ProfileDetails.class));
             } else {
                 Log.d(TAG, "onActivityResult: Login Failed!");
                 Toast.makeText(this, "Login Failed!", Toast.LENGTH_SHORT).show();
