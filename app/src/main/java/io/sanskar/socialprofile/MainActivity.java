@@ -18,6 +18,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * Developed by Sanskar Agrawal
+     * https://github.com/sanskar10100
+     */
+
     private static final int RC_SIGN_IN = 292;
     private static final int PROFILE_DETAILS = 519;
     private static final String TAG = "MainActivity";
